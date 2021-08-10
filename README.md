@@ -1,7 +1,16 @@
 # 何もわからない
-## テストサーバを立てる
+## 準備
 ```
-npx symbol-bootstrap config -p bootstrap
-npx symbol-bootstrap compose
-npx symbol-bootstrap run
+make init
+make run-symbol
+```
+
+## アプリ起動
+```
+make run
+```
+
+## お片付け
+```
+make clean
 ```
